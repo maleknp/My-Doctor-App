@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Doctor</string>
+    <string name="department">DEPARTMENTS</string>
+    <string name="quotes">QUOTES</string>
+    <string name="about">ABOUT US</string>
+    <string name="contact">CONTACT US</string>
+    <string name="des">We hope you get well as soon as possible</string>
+    <string name="home">HOME</string>
+    <string name="md">Medical Departments</string>
+    <string name="sp">Specialized Hospitals and Doctors</string>
+    <string name="click">Click to See Doctors</string>
+    <string name="visit">VISIT OUR WEBSITE</string>
+    <string name="doctors">Doctors</string>
+    <string name="all">All</string>
+    <string name="mq">Medical Quotes</string>
+    <string name="q1">Sometimes the remedy is worse then the disease.</string>
+    <string name="q2">When the heart is at ease, the body is healthy.</string>
+    <string name="q3">To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.</string>
+    <string name="q4">Good health is not something we can buy. However, it can be an extremely valuable savings account.</string>
+    <string name="q5">Good health and good sense are two of life is greatest blessings.</string>
+    <string name="q6">Happiness is nothing more than good health and abad memory.</string>
+    <string name="q7">The foundation of success in life is good health, it is also the basis of happiness.</string>
+    <string name="visitteam">VISIT TEAM WEBSITE</string>
+    <string name="helpus">Help us to find better doctors</string>
+    <string name="contactdes1">We are here for your health, we hope you get well as soon as possibale,</string>
+    <string name="contactdes2">Please never hesitate, to suggest us your experience with any good doctors, Help us to help peapole  inform us if you know any better doctors</string>
+    <string name="contactus2des">Tell us if you know any better doctors</string>
+    <string name="email">Your E-mail</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">SEND</string>
+    <string name="weglad">WE GLAD TO HELP YOU</string>
+    <string name="allwhat">All what you need to know about us is here</string>
+    <string name="see">SEE THE DEPARTMENTS</string>
+    <string name="search">SEARCHING BOX</string>
+    <string name="we">We hope you find what you looking for</string>
+    <string name="searchhere">Search here</string>
+
+
+</resources>

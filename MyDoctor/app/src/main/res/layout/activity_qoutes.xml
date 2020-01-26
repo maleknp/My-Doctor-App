@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6dbdf"
+    tools:context=".qoutes">
+
+    <LinearLayout
+        android:id="@+id/texthome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mq"
+            android:textColor="#FFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/des"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texthome"
+        android:layout_marginTop="64dp"
+        android:layout_centerVertical="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/apple2"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q1"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Francis Bacon'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q2"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Chinese'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q3"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Buddha'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q4"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Publilius Syrus'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q5"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Albert Schweitzer'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q6"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'P.T.Barnum'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q7"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="'Anne Wilson Schaef'"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+
+            <Button
+                android:id="@+id/website"
+                android:layout_width="268dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round"
+                android:text="@string/visit"
+                android:textAllCaps="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    //floating action menu start
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fab_addButtonColorNormal="#0092CE"
+        app:fab_addButtonColorPressed="@color/pink_pressed"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/custom_Fab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/fab_actionhome"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_list_black_24dp"
+            android:id="@+id/fab_actiondepartment"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_search_black_24dp"
+            android:id="@+id/fab_actionsearch" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_local_library_black_24dp"
+            android:id="@+id/fab_actionqoutes"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_call_black_24dp"
+            android:id="@+id/fab_actioncontact"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_priority_high_black_24dp"
+            android:id="@+id/fab_actionabout"
+/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    //floating action menu end
+
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+
+</RelativeLayout>

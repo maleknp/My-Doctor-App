@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6dbdf"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/doctor4"
+                    android:background="#d6dbdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Mohamed ahmedggggggfddffff"
+                    android:textColor="#0E1843"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital"
+                    android:textColor="#0E1843"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textColor="#0E1843"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="City"
+                    android:textColor="#0E1843"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="street"
+                    android:textColor="#0E1843"
+                    android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical"-->
+<!--                android:background="@drawable/radius"-->
+<!--                android:layout_marginBottom="30dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:onClick="department">-->
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/image"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    android:src="@drawable/doctor4"-->
+<!--                    android:background="#d6dbdf"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="120dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/name"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_below="@+id/image"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Dr.Mohamed ahmed"-->
+<!--                    android:textColor="#0E1843"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/hospital"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_below="@+id/name"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Hospital"-->
+<!--                    android:textColor="#0E1843"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/phone"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/hospital"-->
+<!--                    android:text="Phone Number"-->
+<!--                    android:textColor="#0E1843"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/city"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/phone"-->
+<!--                    android:text="City"-->
+<!--                    android:textColor="#0E1843"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/place"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/city"-->
+<!--                    android:text="street"-->
+<!--                    android:textColor="#0E1843"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--            </LinearLayout>-->
+<!--              </LinearLayout>-->

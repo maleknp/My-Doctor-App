@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6dbdf"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/clover"
+        android:layout_width="213dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginTop="40dp"
+        android:elevation="6dp"
+        android:src="@drawable/doctorcarton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/textsplash"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="180dp"
+            android:src="@drawable/dddd3"/>
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="#FFF"
+            android:layout_marginTop="-50dp"
+            android:text="@string/weglad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/texthome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="-30dp"
+            android:elevation="6dp"
+            android:src="@drawable/dddd2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-45dp"
+            android:text="@string/des"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    // slide or like menu
+    <LinearLayout
+        android:id="@+id/menus"
+        android:elevation="6dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_marginBottom="70dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="department">
+
+
+                <ImageView
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/department"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department"
+                    android:textColor="#0E1843"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="about">
+                <ImageView
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/about"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textColor="#0E1843"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="70dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="qoutes">
+                <ImageView
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/advice"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quotes"
+                    android:textColor="#0E1843"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="contact">
+                <ImageView
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/contactus3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact"
+                    android:textColor="#0E1843"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    //floating action menu start
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    app:fab_addButtonColorNormal="#0092CE"
+    app:fab_addButtonColorPressed="@color/pink_pressed"
+    app:fab_addButtonPlusIconColor="@color/white"
+    app:fab_labelStyle="@style/custom_Fab">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/fab_actionhome" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_list_black_24dp"
+        android:id="@+id/fab_actiondepartment"
+/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_search_black_24dp"
+        android:id="@+id/fab_actionsearch" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_local_library_black_24dp"
+        android:id="@+id/fab_actionqoutes" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_call_black_24dp"
+        android:id="@+id/fab_actioncontact" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="#0092CE"
+        app:fab_colorPressed="@color/white_pressed"
+        app:fab_size="mini"
+        app:fab_icon="@drawable/ic_priority_high_black_24dp"
+        android:id="@+id/fab_actionabout" />
+
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
+    //floating action menu end
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp1"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

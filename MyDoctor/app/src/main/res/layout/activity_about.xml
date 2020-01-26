@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6dbdf"
+    tools:context=".about">
+
+    <ImageView
+        android:id="@+id/bgone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hyper1"
+        android:padding="200dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_editor_absoluteX="25dp"
+        app:layout_editor_absoluteY="-38dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6dp"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="MY DOCTOR website has created and designed by 'HyperTeam' web developers to assist patients to obtain best/topspecialized doctors in every Libyan city through the website."
+        android:textColor="#000"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgone" />
+
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/round"
+        android:text="@string/visitteam"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/texthome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="#FFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allwhat"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:foregroundGravity="center"
+        android:id="@+id/viewPager"
+        android:layout_centerInParent="true"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    //floating action menu start
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fab_addButtonColorNormal="#0092CE"
+        app:fab_addButtonColorPressed="@color/pink_pressed"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/custom_Fab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/fab_actionhome" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_list_black_24dp"
+            android:id="@+id/fab_actiondepartment"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_search_black_24dp"
+            android:id="@+id/fab_actionsearch" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_local_library_black_24dp"
+            android:id="@+id/fab_actionqoutes"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_call_black_24dp"
+            android:id="@+id/fab_actioncontact"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_priority_high_black_24dp"
+            android:id="@+id/fab_actionabout"
+/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+    //floating action menu end
+
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

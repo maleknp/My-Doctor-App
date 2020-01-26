@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#d6dbdf"
+tools:context=".doctorsSlide">
+
+
+    //cities spinner start
+    <Spinner
+        android:id="@+id/cities"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    //cities spinner end
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        />
+
+
+<LinearLayout
+    android:id="@+id/texthome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:elevation="6dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctors"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/des"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+
+    //floating action menu start
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fab_addButtonColorNormal="#0092CE"
+        app:fab_addButtonColorPressed="@color/pink_pressed"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/custom_Fab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/fab_actionhome"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_list_black_24dp"
+            android:id="@+id/fab_actiondepartment"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_search_black_24dp"
+            android:id="@+id/fab_actionsearch" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_local_library_black_24dp"
+            android:id="@+id/fab_actionqoutes"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_call_black_24dp"
+            android:id="@+id/fab_actioncontact"
+/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#0092CE"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_priority_high_black_24dp"
+            android:id="@+id/fab_actionabout"
+/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    //floating action menu end
+
+
+
+    <ImageView
+    android:id="@+id/bgapp"
+    android:scaleType="fitXY"
+    android:src="@drawable/bgapp2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.923"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+</RelativeLayout>

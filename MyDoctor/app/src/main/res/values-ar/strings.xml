@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">طبيبى</string>
+    <string name="department">ألاقسام</string>
+    <string name="quotes">نصائح</string>
+    <string name="about">حولنا</string>
+    <string name="contact">تواصل معنا</string>
+    <string name="des">نتمني لك الشفاء العاجل في أقرب وقت ممكن</string>
+    <string name="home">الرئيسية</string>
+    <string name="md">ألاقسام الطبية</string>
+    <string name="sp">الاطباء والمستشفيات المتخصصة</string>
+    <string name="click">إضغط لرؤية الاطباء</string>
+    <string name="visit">زيارة الموقع</string>
+    <string name="doctors">الاطباء</string>
+    <string name="all">الكل</string>
+    <string name="mq">نصائح طبية</string>
+    <string name="q1">في بعض الأحيان يكون العلاج أسوأ من المرض.</string>
+    <string name="q2">عندما يكون القلب في راحة ، يكون الجسم في صحة جيدة.</string>
+    <string name="q3">الحفاظ على صحة الجسم هو واجب ... وإلا فلن نكون قادرين على الحفاظ على أذهاننا قوية وواضحة.</string>
+    <string name="q4">الصحة الجيدة ليست شيئًا يمكننا شراؤه. ومع ذلك ، يمكن أن يكون حساب التوفير قيمة للغاية.</string>
+    <string name="q5">الصحة الجيدة والشعور الجيد هما الحياة أعظم النعم.</string>
+    <string name="q6">السعادة ليست أكثر من صحة جيدة وذاكرة أباد.</string>
+    <string name="q7">أساس النجاح في الحياة هو صحة جيدة ، بل هو أيضا أساس السعادة.</string>
+    <string name="visitteam">زيارة موقع الفريق</string>
+    <string name="helpus">أخبرنا إذا كنت تعرف أي أطباء جيدين</string>
+    <string name="contactdes1">نحن هنا من أجل صحتك, نتمني لك الشفاء العاجل,</string>
+    <string name="contactdes2">أرجوك لاتتردد, في إخبارنا بتجاربك مع أطباء جيدين, سأعدنا لمساعدة الاخرين, أخبرنا إذ كنت تعرف أي أطباء جيدين.</string>
+    <string name="contactus2des">أخبرنا إذ كنت تعرف أي أطباء جيدين</string>
+    <string name="email">البريد ألالكتروني</string>
+    <string name="subject">الموضوع</string>
+    <string name="message">رسالة</string>
+    <string name="send">إرسال</string>
+    <string name="weglad">نحن سعداء لمساعدتك</string>
+    <string name="allwhat">كل ماتريد معرفته عنا هنا...</string>
+    <string name="see">رؤية ألاقسام</string>
+    <string name="search">مربع البحث</string>
+    <string name="we">نأمل أن تجد ما تبحث عنه</string>
+    <string name="searchhere">ابحث هنا</string>
+
+
+
+
+
+
+</resources>
