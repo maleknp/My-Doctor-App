@@ -1,21 +1,31 @@
 package com.example.mydoctor;
 
 public class Model {
-    private int image;
+    private int id;
+    private String image;
     private String title;
-    private String desc;
+//    private String desc;
 
-    public Model(int image, String title, String desc) {
+    public Model(String image, String title, int id) {
+        this.id= id;
         this.image = image;
         this.title = title;
-        this.desc = desc;
+//        this.desc = desc;
     }
 
-    public int getImage() {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 
@@ -27,11 +37,11 @@ public class Model {
         this.title = title;
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+//    public String getDesc() {
+//        return desc;
+//    }
+//
+//    public void setDesc(String desc) {
+//        this.desc = desc;
+//    }
 }

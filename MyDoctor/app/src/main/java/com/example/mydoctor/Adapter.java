@@ -11,6 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.squareup.picasso.Picasso;
+
+import java.net.URL;
 import java.util.List;
 
 public class Adapter extends PagerAdapter {
@@ -46,7 +49,9 @@ public class Adapter extends PagerAdapter {
         imageView = view.findViewById(R.id.image);
         title = view.findViewById(R.id.title);
 
-        imageView.setImageResource(models.get(position).getImage());
+//        imageView.setImageResource(models.get(position).getImage());
+        Picasso.get().load(models.get(position).getImage()).into(imageView);
+
         title.setText(models.get(position).getTitle());
 
         //to go inside department

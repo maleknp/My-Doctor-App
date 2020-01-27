@@ -23,6 +23,9 @@ public class contaactus2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contaactus2);
+
+
+
         emailEdit = findViewById(R.id.email);
         subjectEdit = findViewById(R.id.subject);
         messageEdit = findViewById(R.id.message);
